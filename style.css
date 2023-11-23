@@ -197,6 +197,18 @@ footer .box a:hover i {
     margin-right: 1.5rem;
 }
 
+.copyright {
+    text-align: center;
+    background: var(--white);
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.copyright span {
+    color: var(--main-color);
+}
+
 /* ============== MEDIA QUERIES ==============  */
 @media screen and (max-width: 991px) {
     html {
