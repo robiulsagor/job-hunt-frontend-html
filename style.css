@@ -259,6 +259,106 @@ section.category {
 
 
 
+.jobs-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-jobs {
+    box-shadow: var(--box-shadow);
+    background: var(--white);
+    padding: 2rem;
+    border-radius: .5rem
+}
+
+.box-jobs .company {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.box-jobs .company img {
+    width: 55px;
+    height: 60px;
+    border-radius: .5rem;
+}
+
+.box-jobs .company h3 {
+    color: var(--black);
+    font-size: 1.8rem;
+}
+
+.box-jobs .company span {
+    color: var(--light-color);
+    font-size: 1.4rem;
+}
+
+.box-jobs .job-title {
+    font-size: 1.8rem;
+    margin: 1.6rem 0 .8rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.box-jobs .job-location {
+    font-size: 1.5rem;
+    /* margin: 1.6rem 0 .4rem; */
+    color: var(--light-color);
+}
+
+.box-jobs .tags {
+    margin: 1.8rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.box-jobs .job-tag {
+    background: var(--light-bg);
+    font-size: 1.6rem;
+    padding: 1rem 1.8rem;
+    color: var(--light-color);
+    border-radius: .5rem;
+}
+
+.box-jobs .job-tag i {
+    margin-right: .5rem;
+}
+
+.box-jobs .flex-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-jobs .save-btn {
+    background: var(--light-bg);
+    cursor: pointer;
+    width: 4rem;
+    transition: .2s;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+}
+
+.box-jobs .save-btn:hover {
+    background: var(--black);
+}
+
+.box-jobs .save-btn:hover i {
+    color: var(--white);
+}
+
+.center {
+    /* background: #000; */
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
+
+/* ========= LATEST JOBS ENDS ========== */
+
 
 
 
