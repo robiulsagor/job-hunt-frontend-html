@@ -58,61 +58,66 @@
             </div>
 
             <div class="dropdown-container">
-                <select name="date-posted" id="">
-                    <option value="" selected disabled>Date Posted</option>
-                    <option value="today">today</option>
-                    <option value="3">3 days ago</option>
-                    <option value="7">7 days ago</option>
-                    <option value="10">10 days ago</option>
-                    <option value="15">15 days ago</option>
-                    <option value="30">30 days ago</option>
-                </select>
+                <div class="dropdown">
+                    <input type="text" name="date" placeholder="date posted" readonly class="output" />
+                    <div class="lists">
+                        <div class="item">today</div>
+                        <div class="item">3 days ago</div>
+                        <div class="item">7 days ago</div>
+                        <div class="item">10 days ago</div>
+                        <div class="item">15 days ago</div>
+                        <div class="item">30 days ago</div>
+                    </div>
+                </div>
 
-                <select name="estimated-salary" id="">
-                    <option value="" selected disabled>Estimated Salary</option>
-                    <option value="1k or less">1k or less</option>
-                    <option value="1k - 5k">1k - 5k</option>
-                    <option value="5k - 10k">5k - 10k</option>
-                    <option value="10k - 15k">10k - 15k</option>
-                    <option value="10k - 15k">10k - 15k</option>
-                    <option value="15k - 20k">15k - 20k</option>
-                    <option value="20k - 25k">20k - 25k</option>
-                    <option value="25k - 30k">25k - 30k</option>
-                    <option value="30k - 25k">30k - 25k</option>
-                    <option value="35k - 40k">35k - 40k</option>
-                    <option value="40k - 45k">40k - 45k</option>
-                    <option value="45k - 50k">45k - 50k</option>
-                    <option value="50k - 1 lakh">50k - 1 lakh</option>
-                    <option value="1 lakh - 2 lakh">1 lakh - 2 lakh</option>
-                    <option value="2 lakh - 3 lakh">2 lakh - 3 lakh</option>
-                </select>
+                <div class="dropdown">
+                    <input type="text" name="salary" placeholder="estimated-salary" readonly class="output" />
+                    <div class="lists">
+                        <div class="item">1k or less</div>
+                        <div class="item">1k - 5k</div>
+                        <div class="item">5k - 10k</div>
+                        <div class="item">10k - 15k</div>
+                        <div class="item">15k - 20k</div>
+                        <div class="item">20k - 25k</div>
+                        <div class="item">25k - 30k</div>
+                        <div class="item">30k - 35k</div>
+                        <div class="item">35k - 40k+</div>
+                    </div>
+                </div>
 
-                <select name="job-type">
-                    <option value="" selected disabled>Job Type</option>
-                    <option value="full-time">full-time</option>
-                    <option value="part-time">part-time</option>
-                    <option value="internship">internship</option>
-                    <option value="contract">contract</option>
-                    <option value="temporary">temporary</option>
-                    <option value="fresher">contractfresher/option>
-                </select>
+                <div class="dropdown">
+                    <input type="text" name="type" placeholder="job-type" readonly class="output" />
+                    <div class="lists">
+                        <div class="item">full-time</div>
+                        <div class="item">part-time</div>
+                        <div class="item">internship</div>
+                        <div class="item">contract</div>
+                        <div class="item">temporary</div>
+                        <div class="item">fresher</div>
+                    </div>
+                </div>
 
-                <select name="education" id="">
-                    <option value="" selected disabled>Education Level</option>
-                    <option value="10th">10th pass</option>
-                    <option value="12th">12th pass</option>
-                    <option value="bachelor">bachelor's degree</option>
-                    <option value="master">master's degree</option>
-                    <option value="diplopa">diplopa</option>
-                </select>
+                <div class="dropdown">
+                    <input type="text" name="education" placeholder="education" readonly class="output" />
+                    <div class="lists">
+                        <div class="item">10th pass</div>
+                        <div class="item">12th pass</div>
+                        <div class="item">bachelor's degree</div>
+                        <div class="item">master's degree</div>
+                        <div class="item">temporary</div>
+                        <div class="item">diploma</div>
+                    </div>
+                </div>
 
-                <select name="shift" id="">
-                    <option value="" selected disabled>Work Shift</option>
-                    <option value="day shift">day shift</option>
-                    <option value="night shift">night shift</option>
-                    <option value="fixed shift">fixed shift</option>
-                    <option value="flexible shift">flexible shift</option>
-                </select>
+                <div class="dropdown">
+                    <input type="text" name="shift" placeholder="shift" readonly class="output" />
+                    <div class="lists">
+                        <div class="item">day shift</div>
+                        <div class="item">night shift</div>
+                        <div class="item">fixed shift</div>
+                        <div class="item">flexible shift</div>
+                    </div>
+                </div>
             </div>
 
             <a href="#" class="btn">search now</a>
