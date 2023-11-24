@@ -469,6 +469,73 @@ section.category {
     color: var(--light-color);
 }
 
+/* ================= REVIEWS SECTION ENDS ===================*/
+
+/* ============== JOBS PAGE/ SECTION ========= */
+.job-filter form {
+    background: var(--white);
+    padding: 2rem;
+}
+
+.job-filter form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.job-filter form .flex .box {
+    flex: 1 1 40rem;
+}
+
+.job-filter form .flex .box p {
+    font-size: 1.7rem;
+    text-align: left;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+
+.job-filter form .flex .box p span {
+    color: var(--red);
+}
+
+.job-filter form .flex .box input {
+    width: 100%;
+    background: var(--light-bg);
+    padding: 1.4rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    margin: .5rem 0;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: .8rem;
+}
+
+.dropdown-container select {
+    flex: 1 1 20rem;
+    background: var(--light-bg);
+    color: var(--light-color);
+    padding: 1.4rem 1rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+.job-filter .btn {
+    width: 100%;
+    margin: 2rem 0 0;
+    padding: 1.3rem;
+}
+
+
+/* ============== JOBS PAGE/ SECTION ENDS ========= */
+
 /* ============ FOOTER ============= */
 footer .grid {
     display: grid;

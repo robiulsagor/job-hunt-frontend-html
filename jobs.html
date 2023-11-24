@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Job Hunt</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <span id="menu_btn">
+                <i class="fas fa-bars-staggered"></i>
+            </span>
+
+            <a href="index.html" class="logo">
+                <i class="fas fa-briefcase"></i>
+                Jobhunt.
+            </a>
+
+            <nav>
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="jobs.html">all jobs</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">login</a>
+            </nav>
+
+            <a href="#" class="btn">post job</a>
+        </section>
+    </header>
+    <!-- ========= Header ends ========== -->
+
+
+    <section class="job-filter">
+        <h1 class="heading">job filter</h1>
+
+        <form>
+            <div class="flex">
+                <div class="box">
+                    <p>job title <span>*</span></p>
+                    <input type="text" name="title" placeholder="keyword, category or company" required maxlength="20">
+                </div>
+
+                <div class="box">
+                    <p>job location</p>
+                    <input type="text" name="location" placeholder="city or state" required maxlength="20">
+                </div>
+            </div>
+
+            <div class="dropdown-container">
+                <select name="date-posted" id="">
+                    <option value="" selected disabled>Date Posted</option>
+                    <option value="today">today</option>
+                    <option value="3">3 days ago</option>
+                    <option value="7">7 days ago</option>
+                    <option value="10">10 days ago</option>
+                    <option value="15">15 days ago</option>
+                    <option value="30">30 days ago</option>
+                </select>
+
+                <select name="estimated-salary" id="">
+                    <option value="" selected disabled>Estimated Salary</option>
+                    <option value="1k or less">1k or less</option>
+                    <option value="1k - 5k">1k - 5k</option>
+                    <option value="5k - 10k">5k - 10k</option>
+                    <option value="10k - 15k">10k - 15k</option>
+                    <option value="10k - 15k">10k - 15k</option>
+                    <option value="15k - 20k">15k - 20k</option>
+                    <option value="20k - 25k">20k - 25k</option>
+                    <option value="25k - 30k">25k - 30k</option>
+                    <option value="30k - 25k">30k - 25k</option>
+                    <option value="35k - 40k">35k - 40k</option>
+                    <option value="40k - 45k">40k - 45k</option>
+                    <option value="45k - 50k">45k - 50k</option>
+                    <option value="50k - 1 lakh">50k - 1 lakh</option>
+                    <option value="1 lakh - 2 lakh">1 lakh - 2 lakh</option>
+                    <option value="2 lakh - 3 lakh">2 lakh - 3 lakh</option>
+                </select>
+
+                <select name="job-type">
+                    <option value="" selected disabled>Job Type</option>
+                    <option value="full-time">full-time</option>
+                    <option value="part-time">part-time</option>
+                    <option value="internship">internship</option>
+                    <option value="contract">contract</option>
+                    <option value="temporary">temporary</option>
+                    <option value="fresher">contractfresher/option>
+                </select>
+
+                <select name="education" id="">
+                    <option value="" selected disabled>Education Level</option>
+                    <option value="10th">10th pass</option>
+                    <option value="12th">12th pass</option>
+                    <option value="bachelor">bachelor's degree</option>
+                    <option value="master">master's degree</option>
+                    <option value="diplopa">diplopa</option>
+                </select>
+
+                <select name="shift" id="">
+                    <option value="" selected disabled>Work Shift</option>
+                    <option value="day shift">day shift</option>
+                    <option value="night shift">night shift</option>
+                    <option value="fixed shift">fixed shift</option>
+                    <option value="flexible shift">flexible shift</option>
+                </select>
+            </div>
+
+            <a href="#" class="btn">search now</a>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="jobs-container">
+        <h1 class="heading">all jobs</h1>
+
+        <div class="jobs-box-container">
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/html.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Senior Web Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>part-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>day shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/css.svg" alt="">
+                    <div>
+                        <h3>mass media ltd.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Senior Web Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>full-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>fixed shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/js.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Qualified Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>part-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>day shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/react.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">React Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>part-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>fixed shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/html.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Senior Web Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>full-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>day shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/next.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Javascript Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>part-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>flexible shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/next.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">Laravel Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>20k - 35k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>full-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>day shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="box-jobs">
+                <div class="company">
+                    <img src="./assets/next.svg" alt="">
+                    <div>
+                        <h3>IT Infosys co.</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <p class="job-title">PHP Developer</p>
+                <p class="job-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Dhaka, Bangladesh</span>
+                </p>
+                <div class="tags">
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>10k - 25k</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-briefcase"></i>
+                        <span>full-time</span>
+                    </div>
+                    <div class="job-tag">
+                        <i class="fas fa-clock"></i>
+                        <span>fixed shift</span>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="#" class="btn">View details</a>
+                    <button class="save-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== JOBS-CONTAINER ENDS -->
+
+
+
+
+
+
+    <footer>
+        <section class="grid">
+            <div class="box">
+                <h4>quick links</h4>
+
+                <a href="index.html"><i class="fas fa-chevron-right"></i> home</a>
+                <a href="about.html"><i class="fas fa-chevron-right"></i> about</a>
+                <a href="jobs.html"><i class="fas fa-chevron-right"></i> all jobs</a>
+                <a href="contact.html"><i class="fas fa-chevron-right"></i> contact us</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> filter search</a>
+            </div>
+
+            <div class="box">
+                <h4>extra links</h4>
+
+                <a href="#"><i class="fas fa-chevron-right"></i> account</a>
+                <a href="login.html"><i class="fas fa-chevron-right"></i> login</a>
+                <a href="register.html"><i class="fas fa-chevron-right"></i> register</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> post job</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> dashboard</a>
+            </div>
+
+            <div class="box">
+                <h4>follow us</h4>
+
+                <a href="https://www.facebook.com/robiul.islam.sagor24"> <i class="fa-brands fa-facebook-f"></i>
+                    facebook</a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i> linked in</a>
+                <a href="#"><i class="fa-brands fa-youtube"></i> youtube </a>
+            </div>
+        </section>
+        <div class="copyright">
+            &copy; copyright @ 2023 by <span>Robiul Islam Sagar </span> | all rights reserved
+        </div>
+    </footer>
+
+    <!-- custom js file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
