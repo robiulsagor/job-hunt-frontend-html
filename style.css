@@ -401,31 +401,73 @@ section.category {
 
 /* ================= ABOUT PAGE ENDS =============== */
 
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
 
+.reviews .box {
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+}
 
+.reviews .box .review-stars {
+    background: var(--light-bg);
+    display: inline-block;
+    padding: 1rem;
+    border-radius: .5rem;
+}
 
+.reviews .box .review-stars i {
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
 
+.reviews .box .review-body {
+    text-align: right;
+    margin: 1.6rem 0;
+}
 
+.reviews .box .review-body h3 {
+    font-size: 2.3rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
 
+.reviews .box .review-body p {
+    font-size: 1.65rem;
+    color: var(--light-color);
+    line-height: 2.6rem;
+    margin-top: 1rem;
+}
 
+.reviews .reviewer-info {
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
 
+.reviews .reviewer-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
+.reviews .reviewer-info h3 {
+    font-size: 1.95rem;
+    color: var(--black);
+    margin-bottom: .6rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.reviews .reviewer-info span {
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
 
 /* ============ FOOTER ============= */
 footer .grid {
