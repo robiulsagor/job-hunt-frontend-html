@@ -75,6 +75,18 @@ img {
     color: var(--black);
 }
 
+.section-title {
+    background: var(--black);
+    font-size: 6rem;
+    text-align: center;
+    color: var(--white);
+    padding: 6rem 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-top: 1rem solid var(--main-color);
+    border-bottom: 1rem solid var(--main-color);
+}
+
 .btn {
     padding: 1rem 3rem;
     text-align: center;
@@ -359,7 +371,35 @@ section.category {
 
 /* ========= LATEST JOBS ENDS ========== */
 
+/* ================= ABOUT PAGE =================+ */
 
+
+.about .box {
+    background: var(--white);
+    padding: 3rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+
+.about .box h2 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+    color: var(--bg);
+    text-transform: capitalize;
+}
+
+.about .box p {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.about .box .btn {
+    margin-top: 1.8rem;
+}
+
+/* ================= ABOUT PAGE ENDS =============== */
 
 
 
@@ -449,6 +489,11 @@ footer .box a:hover i {
     html {
         font-size: 55%;
     }
+
+    .section-title {
+        font-size: 5rem;
+        padding: 4rem 2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -489,10 +534,22 @@ footer .box a:hover i {
         text-align: center;
         align-items: center;
     }
+
+
+    .section-title {
+        font-size: 4rem;
+        padding: 3.5rem 2rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+
+    .section-title {
+        font-size: 3rem;
+        padding: 3rem 2rem;
     }
 }
