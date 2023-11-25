@@ -75,6 +75,31 @@ img {
     color: var(--black);
 }
 
+.flex-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-btn {
+    background: var(--light-bg);
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: .2s;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+}
+
+.save-btn:hover {
+    background: var(--black);
+}
+
+.save-btn:hover i,
+.save-btn:hover span {
+    color: var(--white) !important;
+}
+
+
 .section-title {
     background: var(--black);
     font-size: 6rem;
@@ -341,27 +366,11 @@ section.category {
     margin-right: .5rem;
 }
 
-.box-jobs .flex-btn {
+/* .box-jobs .flex-btn {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.box-jobs .save-btn {
-    background: var(--light-bg);
-    cursor: pointer;
-    width: 4rem;
-    transition: .2s;
-    border-radius: .5rem;
-    font-size: 1.8rem;
-}
-
-.box-jobs .save-btn:hover {
-    background: var(--black);
-}
-
-.box-jobs .save-btn:hover i {
-    color: var(--white);
-}
 
 .center {
     /* background: #000; */
@@ -570,6 +579,68 @@ section.category {
 }
 
 /* ============== JOBS PAGE/ SECTION ENDS ========= */
+
+/* ============ VIEW JOB STARTS =============== */
+
+.view-job .details {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.view-job .details h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    margin: .5rem 0 .5rem;
+}
+
+.view-job .details p,
+.view-job .details li,
+
+.view-job .details span,
+.view-job .details i {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 3rem;
+}
+
+.view-job .details .job-details a {
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    display: inline-block;
+}
+
+.view-job .details ul {
+    margin: 2.5rem 0;
+}
+
+.view-job .details span {
+    padding-left: 1rem;
+    text-transform: capitalize;
+}
+
+.view-job .details ul li {
+    margin-left: 4rem;
+}
+
+.view-job .details .basic-info {
+    background: var(--light-bg);
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    margin: 1rem 0;
+}
+
+/* ============ VIEW JOB ENDS =============== */
+
+
+
+
+
+
+
+
+
 
 /* ============ FOOTER ============= */
 footer .grid {
