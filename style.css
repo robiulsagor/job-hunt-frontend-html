@@ -739,6 +739,57 @@ section.category {
     line-height: 2.5rem;
 }
 
+.contact form {
+    margin-top: 3rem;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: .5rem;
+
+}
+
+.contact form .flex {
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact form .flex .box {
+    flex: 1 1 40rem
+}
+
+.contact form p {
+    color: var(--light-color);
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.contact form .textarea-container {
+    margin-top: 1rem;
+}
+
+/* .contact form p {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+} */
+
+.contact form .flex input, .contact form .flex select,
+.contact form textarea {
+    font-size: 1.8rem;
+    background: var(--light-bg);
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.contact form textarea {
+    resize: none;
+    height: 15rem;
+}
+
+
+
 /* ========= CONTACT PAGE ENDS ========== */
 
 
