@@ -129,12 +129,20 @@ img {
     background: var(--black);
 }
 
+a:link {
+    color: var(--black);
+}
+
+a.btn {
+    color: var(--white);
+}
+
 /* common container is for homepage, login page and register page */
 .common-container {
     background: url(./assets/curvy.jpg), rgba(0, 0, 0, .6) no-repeat;
     background-blend-mode: color;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -330,6 +338,7 @@ section.category {
 .box-categories .box h3 {
     font-size: 1.9rem;
     text-transform: capitalize;
+    margin-bottom: .5rem;
 }
 
 .box-categories .box span {
