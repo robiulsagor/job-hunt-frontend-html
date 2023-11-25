@@ -697,6 +697,49 @@ section.category {
 
 /* ========== VIEW COMPANY ENDS */
 
+/* ========= CONTACT PAGE STARTS ========== */
+.contact .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 1.5rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    transition: .3s;
+}
+
+.contact .box-container .box {
+    background: var(--white);
+    padding: 3.5rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s;
+    box-shadow: var(--box-shadow);
+}
+
+.contact .box-container .box:hover {
+    box-shadow: .2rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.contact .box-container .box i {
+    width: 5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    background: var(--light-bg);
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.contact .box-container .box p, .contact .box-container .box a {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 2.5rem;
+}
+
+/* ========= CONTACT PAGE ENDS ========== */
 
 
 
