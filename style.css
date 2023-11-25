@@ -510,21 +510,57 @@ section.category {
 .dropdown-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.4rem;
+    gap: 1rem;
     margin-top: .8rem;
 }
 
-.dropdown-container select {
+.dropdown {
     flex: 1 1 20rem;
+    position: relative;
+}
+
+.dropdown .output {
     background: var(--light-bg);
-    color: var(--light-color);
-    padding: 1.4rem 1rem;
-    font-size: 1.7rem;
     border-radius: .5rem;
+    font-size: 1.7rem;
     width: 100%;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    text-align: center;
+    padding: 1.4rem 1rem;
+    text-transform: capitalize;
+}
+
+.dropdown .lists {
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 1rem .5rem;
+    border: .2rem solid #ceccccb5;
+    border-radius: .5rem;
+    transition: .2s;
+    transform: scaleY(0);
+    transform-origin: top;
+    z-index: 10;
+}
+
+.dropdown-container .dropdown .lists:hover,
+.dropdown-container .dropdown:hover .lists,
+.dropdown-container .dropdown .output:focus~.lists,
+.dropdown-container .dropdown .output:focus-within+.lists {
+    transform: scaleY(1);
+}
+
+.dropdown .lists .item {
+    font-size: 1.8rem;
+    padding: 1.3rem;
+    color: var(--light-color);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.dropdown .lists .item:hover {
+    background: var(--light-bg);
 }
 
 .job-filter .btn {
@@ -532,7 +568,6 @@ section.category {
     margin: 2rem 0 0;
     padding: 1.3rem;
 }
-
 
 /* ============== JOBS PAGE/ SECTION ENDS ========= */
 

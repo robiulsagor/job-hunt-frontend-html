@@ -59,7 +59,7 @@
 
             <div class="dropdown-container">
                 <div class="dropdown">
-                    <input type="text" name="date" placeholder="date posted" readonly class="output" />
+                    <input type="text" name="date" placeholder="date posted" class="output" />
                     <div class="lists">
                         <div class="item">today</div>
                         <div class="item">3 days ago</div>
@@ -123,22 +123,6 @@
             <a href="#" class="btn">search now</a>
         </form>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <section class="jobs-container">
@@ -427,10 +411,6 @@
     <!-- ===== JOBS-CONTAINER ENDS -->
 
 
-
-
-
-
     <footer>
         <section class="grid">
             <div class="box">
@@ -471,6 +451,19 @@
 
     <!-- custom js file -->
     <script src="./script.js"></script>
+    <script>
+        const dropdown_items = document.querySelectorAll(".job-filter .dropdown-container .dropdown .lists .item");
+
+        dropdown_items.forEach(item => {
+            item.addEventListener("click", () => {
+                const item_parent = item.parentElement.parentElement
+                const output = item_parent.querySelector(".output")
+                output.value = item.textContent
+
+                item.parentElement.style.transform = "scaleY(0)"
+            })
+        })
+    </script>
 </body>
 
 </html>
