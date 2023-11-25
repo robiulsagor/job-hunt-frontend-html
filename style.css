@@ -129,6 +129,7 @@ img {
     background: var(--black);
 }
 
+/* common container is for homepage, login page and register page */
 .common-container {
     background: url(./assets/curvy.jpg), rgba(0, 0, 0, .6) no-repeat;
     background-blend-mode: color;
