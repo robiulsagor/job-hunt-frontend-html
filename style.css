@@ -633,6 +633,69 @@ section.category {
 
 /* ============ VIEW JOB ENDS =============== */
 
+/* ========== VIEW COMPANY STARTS */
+.view-company .details {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.view-company .details .company-info {
+    width: 30rem;
+    background: var(--light-bg);
+    margin: 1rem auto;
+    border: .1rem solid #dfdcdc;
+    text-align: center;
+    padding: 4rem;
+    border-radius: .5rem;
+}
+
+.view-company .details .company-info img {
+    width: 100px;
+}
+
+.view-company .details .company-info h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: var(--black);
+}
+
+.view-company .details .company-info>div {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-transform: capitalize;
+}
+
+.view-company .details .company-info i {
+    margin-right: .5rem;
+}
+
+.view-company .details .about-company {
+    margin: 3.5rem 0;
+}
+
+.view-company .details .about-company h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.view-company .details .about-company p {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    line-height: 3rem;
+}
+
+.view-company .details .about-company ul {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    line-height: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+/* ========== VIEW COMPANY ENDS */
 
 
 
